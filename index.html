@@ -14,17 +14,22 @@
             font-family: 'Inter', sans-serif;
             background-color: #FDFBF8; /* Creamy off-white */
         }
-        h1, h2, h3, .font-serif {
-            font-family: 'inter', serif;
+        .font-serif {
+            font-family: 'Playfair Display', serif;
         }
         /* Color Palette */
-        .bg-primary { background-color: #4A2E2A; } /* Chocolate Brown */
-        .text-primary { color: #4A2E2A; }
+        .text-primary { color: #4A2E2A; } /* Chocolate Brown */
         .bg-accent { background-color: #DB602B; } /* Orange */
         
         /* Arabic Font */
         .font-arabic {
             font-family: 'Helvetica', sans-serif;
+        }
+        
+        /* Custom class for Inter font with higher weight */
+        .font-inter-bold {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
         }
     </style>
 </head>
@@ -35,7 +40,8 @@
             <img src="https://res.cloudinary.com/dmd7katvd/image/upload/v1756306048/IMG_8239_uddic7.png" alt="Minimarket Bouthayna Logo" class="h-24 w-auto mb-8">
         </a>
 
-        <h1 class="text-4xl md:text-6xl font-serif text-primary mb-4">Bientôt disponible</h1>
+        <!-- Changed from font-serif to font-inter-bold -->
+        <h1 class="text-4xl md:text-6xl font-inter-lighter text-primary mb-4">Bientôt disponible</h1>
         <h2 class="text-4xl md:text-6xl font-arabic text-primary mb-8">قريباً</h2>
         
         <p class="max-w-xl text-lg text-gray-600 mb-8">
